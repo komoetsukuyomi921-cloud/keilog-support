@@ -1,0 +1,13 @@
+:root { --bg: #ffffff; --text: #1a3030; --muted: #6e6e73; --accent: #12644c; --rule: #e5e5ea; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0e1614; --text: #e8f2ef; --muted: #a1a1a6; --accent: #66dbb0; --rule: #26302d; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.8; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--rule); }
+h3 { font-size: 1rem; margin: 20px 0 4px; }
+p, li { font-size: 1rem; }
+.meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 24px; }
+.back { font-size: 0.9rem; margin: 0 0 12px; }
+a { color: var(--accent); }
+nav a { margin-right: 16px; }
